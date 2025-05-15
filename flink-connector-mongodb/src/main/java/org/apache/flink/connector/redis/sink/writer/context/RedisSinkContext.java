@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.apache.flink.connector.mongodb.sink.writer.context;
+package org.apache.flink.connector.redis.sink.writer.context;
 
 import org.apache.flink.annotation.PublicEvolving;
 import org.apache.flink.api.connector.sink2.Sink;
-import org.apache.flink.connector.mongodb.sink.config.RedisWriteOptions;
-import org.apache.flink.connector.mongodb.sink.writer.serializer.RedisSerializationSchema;
+import org.apache.flink.connector.redis.sink.config.RedisWriteOptions;
+import org.apache.flink.connector.redis.sink.writer.serializer.RedisSerializationSchema;
 
 /** This context provides information for {@link RedisSerializationSchema}. */
 @PublicEvolving

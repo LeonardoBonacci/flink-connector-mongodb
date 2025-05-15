@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.apache.flink.connector.mongodb.sink;
+package org.apache.flink.connector.redis.sink;
 
 import static org.apache.flink.util.Preconditions.checkNotNull;
 import static org.apache.flink.util.Preconditions.checkState;
 
 import org.apache.flink.annotation.PublicEvolving;
 import org.apache.flink.connector.base.DeliveryGuarantee;
-import org.apache.flink.connector.mongodb.common.config.RedisConnectionOptions;
-import org.apache.flink.connector.mongodb.sink.config.RedisWriteOptions;
-import org.apache.flink.connector.mongodb.sink.writer.serializer.RedisSerializationSchema;
+import org.apache.flink.connector.redis.common.config.RedisConnectionOptions;
+import org.apache.flink.connector.redis.sink.config.RedisWriteOptions;
+import org.apache.flink.connector.redis.sink.writer.serializer.RedisSerializationSchema;
 import org.apache.flink.util.InstantiationUtil;
 
 /**

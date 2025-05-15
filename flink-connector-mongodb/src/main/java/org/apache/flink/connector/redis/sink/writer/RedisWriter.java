@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.apache.flink.connector.mongodb.sink.writer;
+package org.apache.flink.connector.redis.sink.writer;
 
 import static org.apache.flink.util.Preconditions.checkNotNull;
 
@@ -34,12 +34,12 @@ import org.apache.flink.api.common.operators.MailboxExecutor;
 import org.apache.flink.api.common.serialization.SerializationSchema;
 import org.apache.flink.api.connector.sink2.Sink;
 import org.apache.flink.api.connector.sink2.SinkWriter;
-import org.apache.flink.connector.mongodb.common.config.RedisConnectionOptions;
-import org.apache.flink.connector.mongodb.common.utils.RedisHash;
-import org.apache.flink.connector.mongodb.sink.config.RedisWriteOptions;
-import org.apache.flink.connector.mongodb.sink.writer.context.DefaultRedisSinkContext;
-import org.apache.flink.connector.mongodb.sink.writer.context.RedisSinkContext;
-import org.apache.flink.connector.mongodb.sink.writer.serializer.RedisSerializationSchema;
+import org.apache.flink.connector.redis.common.config.RedisConnectionOptions;
+import org.apache.flink.connector.redis.common.utils.RedisHash;
+import org.apache.flink.connector.redis.sink.config.RedisWriteOptions;
+import org.apache.flink.connector.redis.sink.writer.context.DefaultRedisSinkContext;
+import org.apache.flink.connector.redis.sink.writer.context.RedisSinkContext;
+import org.apache.flink.connector.redis.sink.writer.serializer.RedisSerializationSchema;
 import org.apache.flink.metrics.Counter;
 import org.apache.flink.metrics.groups.SinkWriterMetricGroup;
 import org.apache.flink.util.Collector;

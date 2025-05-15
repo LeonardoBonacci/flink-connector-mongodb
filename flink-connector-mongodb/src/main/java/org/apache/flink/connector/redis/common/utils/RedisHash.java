@@ -1,4 +1,4 @@
-package org.apache.flink.connector.mongodb.common.utils;
+package org.apache.flink.connector.redis.common.utils;
 
 import java.util.Map;
 

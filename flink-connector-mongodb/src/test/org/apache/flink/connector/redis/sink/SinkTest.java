@@ -1,9 +1,10 @@
-package org.apache.flink.connector.mongodb.sink;
+package org.apache.flink.connector.redis.sink;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.flink.connector.mongodb.common.utils.RedisHash;
+import org.apache.flink.connector.redis.common.utils.RedisHash;
+import org.apache.flink.connector.redis.sink.RedisSink;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.apache.flink.connector.mongodb.sink;
+package org.apache.flink.connector.redis.sink;
 
 import static org.apache.flink.util.Preconditions.checkNotNull;
 
@@ -25,10 +25,10 @@ import org.apache.flink.api.connector.sink2.Sink;
 import org.apache.flink.api.connector.sink2.SinkWriter;
 import org.apache.flink.api.java.ClosureCleaner;
 import org.apache.flink.connector.base.DeliveryGuarantee;
-import org.apache.flink.connector.mongodb.common.config.RedisConnectionOptions;
-import org.apache.flink.connector.mongodb.sink.config.RedisWriteOptions;
-import org.apache.flink.connector.mongodb.sink.writer.RedisWriter;
-import org.apache.flink.connector.mongodb.sink.writer.serializer.RedisSerializationSchema;
+import org.apache.flink.connector.redis.common.config.RedisConnectionOptions;
+import org.apache.flink.connector.redis.sink.config.RedisWriteOptions;
+import org.apache.flink.connector.redis.sink.writer.RedisWriter;
+import org.apache.flink.connector.redis.sink.writer.serializer.RedisSerializationSchema;
 
 /**
  * Mongo sink converts each incoming element into Redis Hash (bulk write action) and

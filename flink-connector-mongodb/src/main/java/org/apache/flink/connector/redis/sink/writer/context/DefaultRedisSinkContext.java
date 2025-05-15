@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package org.apache.flink.connector.mongodb.sink.writer.context;
+package org.apache.flink.connector.redis.sink.writer.context;
 
 import org.apache.flink.annotation.Internal;
 import org.apache.flink.api.connector.sink2.Sink;
-import org.apache.flink.connector.mongodb.sink.config.RedisWriteOptions;
+import org.apache.flink.connector.redis.sink.config.RedisWriteOptions;
 
 /** Default {@link RedisSinkContext} implementation. */
 @Internal

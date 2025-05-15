@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.apache.flink.connector.mongodb.common.config;
+package org.apache.flink.connector.redis.common.config;
 
 import static org.apache.flink.util.Preconditions.checkNotNull;
 
