@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.9.5
+Built-By: jeffreyvanhelden
+Build-Jdk: 11.0.16
+Specification-Title: Flink : Connectors : MongoDB
+Specification-Version: 2.1
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: Flink : Connectors : MongoDB
+Implementation-Version: 2.1
+Implementation-Vendor-Id: org.apache.flink
+Implementation-Vendor: The Apache Software Foundation
+
